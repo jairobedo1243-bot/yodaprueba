@@ -1,0 +1,10 @@
+{
+    "figuras": [
+        {
+            "codigo": "yoda-01",
+            "nombre": "Figura 3D de Yoda",
+            "personaje": "yoda",
+            "personaje_nombre": "Yoda"
+        }
+    ]
+}

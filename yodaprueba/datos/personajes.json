@@ -1,0 +1,14 @@
+{
+    "personajes": [
+        {
+            "slug": "yoda",
+            "nombre": "Yoda",
+            "titulo": "Gran Maestro de la Orden Jedi",
+            "universo": "Star Wars",
+            "resumen": "Pequeño en tamaño, inmenso en sabiduría. Durante cientos de años guió a la Orden Jedi, luchó en las Guerras Clon y, ya en el exilio, entrenó a la última esperanza de la galaxia.",
+            "imagen_hero": null,
+            "tema": "dagobah"
+        }
+    ],
+    "por_defecto": "yoda"
+}

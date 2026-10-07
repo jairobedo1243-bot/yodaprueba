@@ -1,0 +1,385 @@
+{
+    "personaje": {
+        "slug": "yoda",
+        "nombre": "Yoda",
+        "titulo": "Gran Maestro de la Orden Jedi",
+        "universo": "Star Wars",
+        "resumen": "Pequeño en tamaño, inmenso en sabiduría. Durante cientos de años guió a la Orden Jedi, luchó en las Guerras Clon y, ya en el exilio, entrenó a la última esperanza de la galaxia.",
+        "imagen_hero": null,
+        "tema": "dagobah"
+    },
+    "figura": {
+        "codigo": "yoda-01",
+        "nombre": "Figura 3D de Yoda",
+        "autor": null,
+        "descripcion": "Esta página está vinculada a una figura de Yoda diseñada en 3D. Si llegaste hasta acá escaneando su código QR, ¡bienvenido! Abajo vas a encontrar toda la historia del personaje que la inspira.",
+        "materiales": null,
+        "escala": null,
+        "fecha_creacion": null,
+        "imagen_url": null,
+        "modelo_url": null
+    },
+    "secciones": [
+        {
+            "id": 25,
+            "clave": "biografia",
+            "titulo": "Quién es Yoda",
+            "subtitulo": "Casi mil años de historia",
+            "orden": 10,
+            "parrafos": [
+                "Yoda fue uno de los Jedi más sabios y poderosos de toda la historia de la galaxia. Nació alrededor del año 896 a.B.Y. en un lugar que nunca se reveló: tanto su especie como su mundo natal siguen siendo un misterio, y apenas se sabe de otros pocos seres de su misma especie.",
+                "Durante unos ocho siglos fue maestro de jóvenes Jedi y llegó a ser Gran Maestro de la Orden y miembro del Alto Consejo Jedi. Su manera de hablar, con la frase \"al revés\", y su serenidad lo convirtieron en una figura inconfundible, capaz de ver el futuro con claridad y de enseñar tanto con palabras como con silencios.",
+                "Cuando estalló la guerra y la Orden fue traicionada, sobrevivió al exterminio, se enfrentó a Darth Sidious y se retiró al pantano de Dagobah. Desde allí esperó años, hasta que apareció un joven granjero llamado Luke Skywalker.",
+                "Murió a los 900 años y se volvió uno con la Fuerza, pero su voz sigue guiando a los Jedi mucho tiempo después."
+            ]
+        },
+        {
+            "id": 26,
+            "clave": "ficha",
+            "titulo": "Ficha del personaje",
+            "subtitulo": null,
+            "orden": 20,
+            "parrafos": []
+        },
+        {
+            "id": 27,
+            "clave": "cronologia",
+            "titulo": "Línea de tiempo",
+            "subtitulo": "De Dagobah a Dagobah, pasando por media galaxia",
+            "orden": 30,
+            "parrafos": []
+        },
+        {
+            "id": 28,
+            "clave": "poderes",
+            "titulo": "Poderes y habilidades",
+            "subtitulo": "Lo que lo hizo un Gran Maestro",
+            "orden": 40,
+            "parrafos": []
+        },
+        {
+            "id": 29,
+            "clave": "frases",
+            "titulo": "Frases icónicas",
+            "subtitulo": "Sabiduría en pocas palabras",
+            "orden": 50,
+            "parrafos": []
+        },
+        {
+            "id": 30,
+            "clave": "apariciones",
+            "titulo": "Apariciones",
+            "subtitulo": "Películas y series donde lo vas a encontrar",
+            "orden": 60,
+            "parrafos": []
+        },
+        {
+            "id": 31,
+            "clave": "curiosidades",
+            "titulo": "Datos curiosos",
+            "subtitulo": "Detrás de cámaras y más allá de la pantalla",
+            "orden": 70,
+            "parrafos": []
+        },
+        {
+            "id": 32,
+            "clave": "figura",
+            "titulo": "Sobre esta figura",
+            "subtitulo": "El objeto que te trajo hasta acá",
+            "orden": 80,
+            "parrafos": []
+        }
+    ],
+    "ficha": [
+        {
+            "etiqueta": "Nombre",
+            "valor": "Yoda"
+        },
+        {
+            "etiqueta": "Especie",
+            "valor": "Desconocida (nunca revelada)"
+        },
+        {
+            "etiqueta": "Mundo natal",
+            "valor": "Desconocido"
+        },
+        {
+            "etiqueta": "Nacimiento",
+            "valor": "Aprox. 896 a.B.Y."
+        },
+        {
+            "etiqueta": "Fallecimiento",
+            "valor": "4 d.B.Y., en Dagobah (a los 900 años)"
+        },
+        {
+            "etiqueta": "Altura",
+            "valor": "66 cm"
+        },
+        {
+            "etiqueta": "Sable de luz",
+            "valor": "Hoja verde"
+        },
+        {
+            "etiqueta": "Afiliación",
+            "valor": "Orden Jedi · República Galáctica"
+        },
+        {
+            "etiqueta": "Rango",
+            "valor": "Gran Maestro Jedi · Alto Consejo Jedi"
+        },
+        {
+            "etiqueta": "Primera aparición",
+            "valor": "El imperio contraataca (1980)"
+        },
+        {
+            "etiqueta": "Voz y titiritero",
+            "valor": "Frank Oz (cine) · Tom Kane (animación)"
+        }
+    ],
+    "cronologia": [
+        {
+            "etiqueta_fecha": "Aprox. 896 a.B.Y.",
+            "titulo": "Nacimiento",
+            "descripcion": "Yoda nace en un mundo que jamás se reveló. Su especie tampoco tiene nombre en la saga.",
+            "categoria": "origen"
+        },
+        {
+            "etiqueta_fecha": "Siglos de servicio",
+            "titulo": "Maestro de generaciones Jedi",
+            "descripcion": "Durante unos 800 años instruye a jóvenes Jedi y asciende hasta convertirse en Gran Maestro de la Orden y miembro del Alto Consejo.",
+            "categoria": "orden"
+        },
+        {
+            "etiqueta_fecha": "32 a.B.Y.",
+            "titulo": "La amenaza fantasma",
+            "descripcion": "En el Consejo Jedi se muestra reticente a entrenar al joven Anakin Skywalker: percibe miedo en él y advierte adónde puede llevarlo.",
+            "categoria": "consejo"
+        },
+        {
+            "etiqueta_fecha": "22 a.B.Y.",
+            "titulo": "Batalla de Geonosis",
+            "descripcion": "Llega al frente de un ejército de clones para rescatar a los Jedi y se enfrenta en duelo de sables al Conde Dooku, que logra escapar. Comienzan las Guerras Clon.",
+            "categoria": "batalla"
+        },
+        {
+            "etiqueta_fecha": "22 – 19 a.B.Y.",
+            "titulo": "Las Guerras Clon",
+            "descripcion": "Como Gran Maestro, combina el mando en el campo de batalla con su lugar en el Consejo, mientras la República se hunde en la guerra.",
+            "categoria": "batalla"
+        },
+        {
+            "etiqueta_fecha": "19 a.B.Y.",
+            "titulo": "La Orden 66",
+            "descripcion": "Siente a distancia la muerte de sus hermanos Jedi. Sobrevive junto a los wookiees en Kashyyyk y regresa a Coruscant.",
+            "categoria": "traicion"
+        },
+        {
+            "etiqueta_fecha": "19 a.B.Y.",
+            "titulo": "Duelo contra Darth Sidious",
+            "descripcion": "Se enfrenta al Emperador en el Senado. No logra derrotarlo, pero sobrevive y es evacuado con ayuda de Bail Organa.",
+            "categoria": "batalla"
+        },
+        {
+            "etiqueta_fecha": "19 a.B.Y. – 3 d.B.Y.",
+            "titulo": "Exilio en Dagobah",
+            "descripcion": "Se oculta durante más de dos décadas en un pantano lejano, esperando el momento de transmitir lo que sabe.",
+            "categoria": "exilio"
+        },
+        {
+            "etiqueta_fecha": "3 d.B.Y.",
+            "titulo": "Entrena a Luke Skywalker",
+            "descripcion": "Luke llega a Dagobah buscando a un gran guerrero y encuentra a un anciano diminuto. Yoda lo pone a prueba y comienza su instrucción.",
+            "categoria": "maestro"
+        },
+        {
+            "etiqueta_fecha": "4 d.B.Y.",
+            "titulo": "Se vuelve uno con la Fuerza",
+            "descripcion": "A los 900 años, ya muy débil, confirma a Luke su destino y muere en paz, convirtiéndose en un fantasma de la Fuerza.",
+            "categoria": "muerte"
+        },
+        {
+            "etiqueta_fecha": "34 d.B.Y.",
+            "titulo": "Reaparece como fantasma de la Fuerza",
+            "descripcion": "Aparece ante un Luke desanimado en Ahch-To y le recuerda que el fracaso también enseña.",
+            "categoria": "legado"
+        }
+    ],
+    "poderes": [
+        {
+            "nombre": "Maestría en la Fuerza",
+            "descripcion": "Uno de los usuarios de la Fuerza más poderosos de su época. Levitó con la mente un caza X-wing hundido en el pantano de Dagobah, una proeza que dejó mudo a Luke.",
+            "icono": "fuerza"
+        },
+        {
+            "nombre": "Sable de luz acrobático",
+            "descripcion": "Con su sable de hoja verde combinaba la Fuerza y una agilidad asombrosa. Dominaba la Forma IV (Ataru), un estilo basado en saltos y giros veloces.",
+            "icono": "sable"
+        },
+        {
+            "nombre": "Absorber y devolver relámpagos",
+            "descripcion": "En su duelo contra Darth Sidious absorbió los rayos de la Fuerza que le lanzó y los desvió, un acto de control fuera de lo común.",
+            "icono": "rayo"
+        },
+        {
+            "nombre": "Premonición y sensibilidad",
+            "descripcion": "Percibía los cambios en la Fuerza a enormes distancias: sintió la muerte de los Jedi durante la Orden 66 estando a años luz.",
+            "icono": "vision"
+        },
+        {
+            "nombre": "Enseñanza y paciencia",
+            "descripcion": "Su mayor don fue formar a otros. Entrenó a generaciones de Jedi y supo ver en cada alumno lo que necesitaba aprender.",
+            "icono": "maestro"
+        },
+        {
+            "nombre": "Fantasma de la Fuerza",
+            "descripcion": "Aprendió de Qui-Gon Jinn a conservar su conciencia más allá de la muerte, y pudo seguir guiando a quienes lo necesitaban.",
+            "icono": "espiritu"
+        }
+    ],
+    "frases": [
+        {
+            "texto": "Hazlo, o no lo hagas. Pero no lo intentes.",
+            "texto_original": "Do or do not. There is no try.",
+            "fuente": "El imperio contraataca (1980)",
+            "contexto": "Le dice a Luke cuando duda de poder sacar su nave del pantano."
+        },
+        {
+            "texto": "El tamaño no importa. Mírame a mí. ¿Me juzgas por mi tamaño?",
+            "texto_original": "Size matters not. Look at me. Judge me by my size, do you?",
+            "fuente": "El imperio contraataca (1980)",
+            "contexto": "En su primera charla con Luke, antes de revelarle quién es."
+        },
+        {
+            "texto": "Seres luminosos somos, no esta materia burda.",
+            "texto_original": "Luminous beings are we, not this crude matter.",
+            "fuente": "El imperio contraataca (1980)",
+            "contexto": "Explicándole a Luke qué es realmente la Fuerza."
+        },
+        {
+            "texto": "Siempre en movimiento está el futuro.",
+            "texto_original": "Always in motion is the future.",
+            "fuente": "El imperio contraataca (1980)",
+            "contexto": "Sobre lo difícil que es ver con claridad lo que vendrá."
+        },
+        {
+            "texto": "El miedo es el camino hacia el lado oscuro: el miedo lleva a la ira, la ira lleva al odio, el odio lleva al sufrimiento.",
+            "texto_original": "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.",
+            "fuente": "La amenaza fantasma (1999)",
+            "contexto": "Advertencia sobre el joven Anakin Skywalker."
+        },
+        {
+            "texto": "Entrénate para soltar todo aquello que temes perder.",
+            "texto_original": "Train yourself to let go of everything you fear to lose.",
+            "fuente": "La venganza de los Sith (2005)",
+            "contexto": "Consejo a Anakin sobre el apego."
+        },
+        {
+            "texto": "Transmite lo que has aprendido.",
+            "texto_original": "Pass on what you have learned.",
+            "fuente": "El retorno del Jedi (1983)",
+            "contexto": "Sus últimas palabras a Luke antes de volverse uno con la Fuerza."
+        },
+        {
+            "texto": "El mayor maestro, el fracaso es.",
+            "texto_original": "The greatest teacher, failure is.",
+            "fuente": "Los últimos Jedi (2017)",
+            "contexto": "Como fantasma de la Fuerza, consolando a Luke en Ahch-To."
+        }
+    ],
+    "apariciones": [
+        {
+            "titulo": "Star Wars: Episodio V – El imperio contraataca",
+            "tipo": "pelicula",
+            "anio": 1980,
+            "interprete": "Frank Oz (titiritero y voz)",
+            "notas": "Su debut: aparece en el pantano de Dagobah y entrena a Luke Skywalker."
+        },
+        {
+            "titulo": "Star Wars: Episodio VI – El retorno del Jedi",
+            "tipo": "pelicula",
+            "anio": 1983,
+            "interprete": "Frank Oz (titiritero y voz)",
+            "notas": "Muere a los 900 años y se vuelve uno con la Fuerza."
+        },
+        {
+            "titulo": "Star Wars: Episodio I – La amenaza fantasma",
+            "tipo": "pelicula",
+            "anio": 1999,
+            "interprete": "Frank Oz (titiritero y voz)",
+            "notas": "Primera película de la trilogía precuela: Yoda en el Consejo Jedi."
+        },
+        {
+            "titulo": "Star Wars: Episodio II – El ataque de los clones",
+            "tipo": "pelicula",
+            "anio": 2002,
+            "interprete": "Frank Oz (voz)",
+            "notas": "Primera vez que se lo ve en versión totalmente digital y también empuñando su sable de luz."
+        },
+        {
+            "titulo": "Star Wars: Episodio III – La venganza de los Sith",
+            "tipo": "pelicula",
+            "anio": 2005,
+            "interprete": "Frank Oz (voz)",
+            "notas": "La Orden 66, el exilio y el duelo contra Darth Sidious."
+        },
+        {
+            "titulo": "Star Wars: The Clone Wars",
+            "tipo": "serie",
+            "anio": 2008,
+            "interprete": "Tom Kane (voz)",
+            "notas": "La guerra vista desde el frente y los consejos de Yoda a sus Jedi."
+        },
+        {
+            "titulo": "Star Wars: Episodio VIII – Los últimos Jedi",
+            "tipo": "pelicula",
+            "anio": 2017,
+            "interprete": "Frank Oz (voz)",
+            "notas": "Reaparece como fantasma de la Fuerza ante Luke Skywalker."
+        },
+        {
+            "titulo": "Star Wars: Episodio IX – El ascenso de Skywalker",
+            "tipo": "pelicula",
+            "anio": 2019,
+            "interprete": "Frank Oz (voz)",
+            "notas": "Su voz se escucha entre los Jedi del pasado que guían a Rey."
+        },
+        {
+            "titulo": "Star Wars: The Bad Batch",
+            "tipo": "serie",
+            "anio": 2021,
+            "interprete": "Tom Kane (voz)",
+            "notas": "Aparece en los primeros momentos tras la caída de la República."
+        }
+    ],
+    "curiosidades": [
+        {
+            "titulo": "Habla al revés",
+            "texto": "Yoda construye sus frases con el orden objeto-sujeto-verbo (\"Cuando 900 años tengas, tan bien no te verás\"), lo que le da su cadencia inconfundible."
+        },
+        {
+            "titulo": "Un titiritero muy famoso",
+            "texto": "En las películas originales Yoda era una marioneta manejada y doblada por Frank Oz, que también dio vida a personajes de Los Muppets como Miss Piggy."
+        },
+        {
+            "titulo": "Su primer sable de luz en pantalla",
+            "texto": "En \"El ataque de los clones\" Yoda pasó de marioneta a personaje digital y, por primera vez, se lo vio combatir con un sable de luz."
+        },
+        {
+            "titulo": "Una primera impresión engañosa",
+            "texto": "En \"El imperio contraataca\", cuando Luke llega al pantano, Yoda se hace pasar por una criatura traviesa para ponerlo a prueba."
+        },
+        {
+            "titulo": "Misterio sin resolver",
+            "texto": "La especie y el mundo natal de Yoda nunca fueron revelados. De su especie se conoce a muy pocos: la Jedi Yaddle y, más tarde, el pequeño Grogu."
+        },
+        {
+            "titulo": "Diseño de la marioneta",
+            "texto": "El diseño de su rostro estuvo a cargo del maquillador Stuart Freeborn, que según se cuenta tomó rasgos de su propio rostro y del de Albert Einstein."
+        },
+        {
+            "titulo": "Tamaño y edad",
+            "texto": "Mide solo 66 centímetros y vivió unos 900 años: toda una demostración de que, como él decía, el tamaño no importa."
+        }
+    ],
+    "media": []
+}
