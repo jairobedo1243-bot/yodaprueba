@@ -1,6 +1,0 @@
-Poné acá las fotos de tu figura 3D (por ejemplo mi-figura.jpg) y después
-enlazalas desde la base de datos:
-
-  UPDATE figuras SET imagen_url = 'assets/img/mi-figura.jpg' WHERE codigo = 'yoda-01';
-
-Recomendado: JPG o WebP, hasta 1600 px de lado y menos de 400 KB para que cargue rápido en el celular.
