@@ -1,0 +1,176 @@
+/* ==========================================================================
+   TEMA · DAGOBAH
+   Solo define variables y la "atmósfera" (niebla, luciérnagas, brillo).
+   Para crear otro tema: copiá este archivo como tema-<nombre>.css, cambiá las
+   variables y poné ese nombre en personajes.tema (base de datos).
+   ========================================================================== */
+
+:root,
+.tema-dagobah {
+  color-scheme: dark;
+
+  /* Superficies */
+  --bg:          #07100c;
+  --bg-2:        #0c1912;
+  --surface:     #11201a;
+  --surface-2:   #172b22;
+  --borde:       #25402f;
+  --borde-suave: #1a2f24;
+
+  /* Texto */
+  --texto:       #e6efe0;
+  --texto-suave: #a5b8a8;
+  --texto-tenue: #7f9484;
+
+  /* Acentos: verde sable + verde azulado de niebla */
+  --acento:      #8be36c;
+  --acento-2:    #5cc4aa;
+  --acento-tinta:#07100c;           /* texto sobre fondos de acento */
+  --acento-glow: rgba(139, 227, 108, .35);
+
+  /* Categorías de la línea de tiempo */
+  --cat-origen:  #8be36c;
+  --cat-orden:   #5cc4aa;
+  --cat-consejo: #9bb7e8;
+  --cat-batalla: #e88a6c;
+  --cat-traicion:#d86a7e;
+  --cat-exilio:  #b79ce0;
+  --cat-maestro: #8be36c;
+  --cat-muerte:  #cfd8d0;
+  --cat-legado:  #5cc4aa;
+
+  /* Tipografía */
+  --font-titulo: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
+  --font-texto:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --radio:   16px;
+  --radio-s: 10px;
+  --sombra:  0 10px 30px rgba(0, 0, 0, .35);
+}
+
+/* ---- Fondo: niebla + manchas de luz -------------------------------------- */
+html { background: var(--bg); }
+body.tema-dagobah {
+  background-repeat: no-repeat;
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(1100px 600px at 80% -10%, rgba(92, 196, 170, .13), transparent 60%),
+    radial-gradient(900px 600px at -10% 20%, rgba(139, 227, 108, .09), transparent 60%),
+    linear-gradient(180deg, var(--bg-2) 0%, var(--bg) 55%);
+  background-attachment: fixed;
+}
+
+.atmosfera {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.niebla {
+  position: absolute;
+  left: -30%;
+  width: 160%;
+  height: 40vh;
+  background: radial-gradient(closest-side, rgba(150, 200, 170, .10), transparent 70%);
+  filter: blur(30px);
+  animation: niebla-deriva 38s ease-in-out infinite alternate;
+}
+.niebla--1 { top: 8%;  }
+.niebla--2 { top: 48%; animation-duration: 52s; animation-direction: alternate-reverse; opacity: .8; }
+.niebla--3 { top: 80%; animation-duration: 64s; opacity: .7; }
+
+@keyframes niebla-deriva {
+  from { transform: translateX(-6%) scaleY(1);   }
+  to   { transform: translateX(8%)  scaleY(1.25); }
+}
+
+/* Luciérnagas (las crea el JS) */
+.luciernaga {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--acento);
+  box-shadow: 0 0 10px 3px var(--acento-glow);
+  opacity: 0;
+  animation: luciernaga var(--dur, 14s) ease-in-out var(--delay, 0s) infinite;
+}
+@keyframes luciernaga {
+  0%   { opacity: 0;   transform: translate(0, 0) scale(.6); }
+  15%  { opacity: .9; }
+  50%  { opacity: .35; transform: translate(var(--dx, 30px), var(--dy, -60px)) scale(1); }
+  85%  { opacity: .9; }
+  100% { opacity: 0;   transform: translate(calc(var(--dx, 30px) * -.5), calc(var(--dy, -60px) * 1.6)) scale(.6); }
+}
+
+/* ---- Emblema de la figura (hero sin foto) -------------------------------- */
+.emblema {
+  --tam: min(72vw, 340px);
+  position: relative;
+  width: var(--tam);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  margin-inline: auto;
+}
+.emblema::before,
+.emblema::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+}
+.emblema::before {
+  inset: 0;
+  border: 1px dashed rgba(139, 227, 108, .45);
+  animation: girar 60s linear infinite;
+}
+.emblema::after {
+  inset: 9%;
+  border: 1px solid var(--borde);
+  background:
+    radial-gradient(circle at 50% 38%, rgba(139, 227, 108, .22), transparent 62%),
+    var(--surface);
+  box-shadow: 0 0 60px var(--acento-glow), inset 0 0 40px rgba(0, 0, 0, .5);
+}
+.emblema__centro {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 1rem;
+}
+.emblema__nombre {
+  font-family: var(--font-titulo);
+  font-size: clamp(2.4rem, 11vw, 3.6rem);
+  letter-spacing: .08em;
+  color: var(--texto);
+  text-shadow: 0 0 24px var(--acento-glow);
+}
+.emblema__codigo {
+  display: inline-block;
+  margin-top: .5rem;
+  padding: .25rem .7rem;
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+  font-size: .78rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--acento);
+  background: rgba(7, 16, 12, .6);
+}
+@keyframes girar { to { transform: rotate(360deg); } }
+
+/* ---- Barra de sable de luz (separador / acento) -------------------------- */
+.sable {
+  height: 4px;
+  width: 96px;
+  border-radius: 99px;
+  background: linear-gradient(90deg, #eaffdf, var(--acento));
+  box-shadow: 0 0 12px 2px var(--acento-glow), 0 0 32px 6px rgba(139, 227, 108, .18);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .niebla, .luciernaga, .emblema::before { animation: none !important; }
+  .luciernaga { opacity: .5; }
+}
